@@ -1,12 +1,12 @@
 # INAV Configurator
 
-INAV Configurator is a cross-platform configuration tool for the [INAV](https://github.com/iNavFlight/inav) flight control system.
+INAV Configurator is a cross-platform configuration tool for the [INAV](https://github.com/iNavFlights/inav) flight control system.
 
 Various types of aircraft are supported by the tool and by INAV, e.g. quadcopters, hexacopters, octocopters, and fixed-wing aircraft.
 
 # Support
 
-INAV Configurator comes `as is`, without any warranty and support from the authors. If you find a bug, please create an issue on [GitHub](https://github.com/iNavFlight/inav-configurator/issues).
+INAV Configurator comes `as is`, without any warranty and support from the authors. If you find a bug, please create an issue on [GitHub](https://github.com/iNavFlights/inav-configurator/issues).
 
 The GitHub issue tracker is reserved for bugs and other technical problems. If you do not know how to set up
 everything, the hardware is not working, or you have any other _support_ problem, please consult:
@@ -14,8 +14,8 @@ everything, the hardware is not working, or you have any other _support_ problem
 * [INAV Discord Server](https://discord.gg/peg2hhbYwN)
 * [INAV Official on Facebook](https://www.facebook.com/groups/INAVOfficial)
 * [RC Groups Support](https://www.rcgroups.com/forums/showthread.php?2495732-Cleanflight-iNav-(navigation-rewrite)-project)
-* [INAV Official on Telegram](https://t.me/INAVFlight)
-* [GitHub Discussions](https://github.com/iNavFlight/inav-configurator/discussions)
+* [INAV Official on Telegram](https://t.me/iNavFlights)
+* [GitHub Discussions](https://github.com/iNavFlights/inav-configurator/discussions)
 
 ## Installation
 
@@ -23,7 +23,7 @@ everything, the hardware is not working, or you have any other _support_ problem
 
 ### Windows
 
-1. Visit [release page](https://github.com/iNavFlight/inav-configurator/releases)
+1. Visit [release page](https://github.com/iNavFlights/inav-configurator/releases)
 2. Download Configurator for Windows platform (ia32 or win64 is present)
 3. Install
     * Extract ZIP archive and run the INAV Configurator app from the unpacked folder
@@ -33,13 +33,13 @@ everything, the hardware is not working, or you have any other _support_ problem
 
 ### Linux
 
-1. Visit [release page](https://github.com/iNavFlight/inav-configurator/releases)
+1. Visit [release page](https://github.com/iNavFlights/inav-configurator/releases)
 2. Download Configurator for Linux platform (only linux64 is present)
    *  **.rpm** is the Fedora installation file. Just download and install using `sudo dnf localinstall /path/to/INAV-Configurator_linux_x64-x.y.z.rpm` or open it with a package manager (e.g. via Files)
    *  **.deb** is the Debian/Ubuntu installation file. Just download and install using `sudo apt install /path/to/INAV-Configurator_linux_x64_x.y.z.deb` or open it with a package manager (e.g. via the File Manager)
    *  **.zip** is a universal archive. Download and continue with these instructions to install
 3. Change to the directory containing the downloaded **zip** file
-4. download [this](https://raw.githubusercontent.com/iNavFlight/inav-configurator/master/assets/linux/inav-configurator.desktop) file to the same directory. Its filename should be `inav-configurator.desktop`.
+4. download [this](https://raw.githubusercontent.com/iNavFlights/inav-configurator/master/assets/linux/inav-configurator.desktop) file to the same directory. Its filename should be `inav-configurator.desktop`.
 5. Extract **zip** archive
 ```
 unzip INAV-Configurator_linux_arch_x.y.z.zip -d /tmp/
@@ -70,7 +70,7 @@ sudo mv inav-configurator.desktop /usr/share/applications/
 
 ### Mac
 
-1. Visit [release page](https://github.com/iNavFlight/inav-configurator/releases)
+1. Visit [release page](https://github.com/iNavFlights/inav-configurator/releases)
 2. Download Configurator for the Mac platform
 3. Install
     * Extract ZIP archive and run INAV Configurator
@@ -160,11 +160,11 @@ Make sure Settings -> System -> "User hardware acceleration when available" is c
 
 For INAV configurator issues raise them here
 
-https://github.com/iNavFlight/inav-configurator/issues
+https://github.com/iNavFlights/inav-configurator/issues
 
 For INAV firmware issues, raise them here
 
-https://github.com/iNavFlight/inav/issues
+https://github.com/iNavFlights/inav/issues
 
 ## Developers
 
